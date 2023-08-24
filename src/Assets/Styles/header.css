@@ -1,0 +1,5 @@
+.header-main{
+    min-height: 10vh;
+    background-color: var(--background-shadow);
+    padding: 10px;
+}

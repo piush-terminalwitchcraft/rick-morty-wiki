@@ -1,0 +1,40 @@
+/* Pagination container */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Pagination item */
+.pagination-container li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid var(--background-shadow);
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Active pagination item */
+.pagination-active {
+    /* background-color: #007bff; */
+    color: white;
+    background-color: var(--foreground);
+}
+
+/* Disabled item */
+.pagination-container li.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Next and previous buttons */
+.pagination-container .next,
+.pagination-container .previous {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid var(--background-shadow);
+    cursor: pointer;
+    user-select: none;
+    background-color: var(--foreground-highlight);
+}
